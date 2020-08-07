@@ -1,0 +1,121 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <link href="Stylesheet.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+</head>
+
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill:#eb4034" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Selected Node
+        </a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill:#f47a20;" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Is a Subroutine
+        </a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill:#f5d142;" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Recursive Call
+        </a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill:#33b572;
+                      ;" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Root Specfile
+        </a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill: #be45d9" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Is a Job File
+        </a>
+        <a>
+            <svg width="15" height="15">
+                <rect width="15" height="15" style="fill:#fff" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            Included By Parent
+        </a>
+    </div>
+
+    <div id="myPopup" class="popup"></div>
+    <img src="arrow.png" class="arrow" id="arrow">
+
+    <ul>
+
+        <select class="dropdown" id="specfiles" onchange="newTree()">
+            <option value="-1">Specfiles Dropdown</option>
+            !@#DROPDOWN!@#
+        </select>
+        <button class="barbtn" id="toggleButton" onclick="toggleMode()">
+            Dependency Mode
+        </button>
+        <input required
+               type="text"
+               class="search"
+               id="search"
+               placeholder="Search..."
+               autocomplete="off"
+               onchange="this.setAttribute('value', this.value);"
+               onkeyup="match(); handle(event);" />
+        <button class="openbtn" id="openbtn" onclick="openNav()">
+            Open Legend ☰
+        </button>
+    </ul>
+
+    <button class="backbtn" id="backbtn" onclick="zoomOut()"> < </button>
+
+
+    <main role="main" class="container">
+        <div class="starter-template">
+            <script>
+
+                !@#Fill!@#
+
+                !@#DependentFill!@#
+
+            </script>
+            <script src="Cartographer.js"></script>
+        </div>
+
+    </main><!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+</html>

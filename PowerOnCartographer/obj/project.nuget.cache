@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "6ivJ8ZLnvIblyKQLxdB1vg0DOJ3GO5ycwqxHe+/FhZy3nmfWYmjq2o4quA9ltcuC1NUzDSOPqZz4lu7dwHugsg==",
+  "success": true,
+  "projectFilePath": "C:\\UFCU\\PowerOnCartographerScrambled\\PowerOnCartographer\\PowerOnCartographer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.1\\microsoft.extensions.configuration.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.1\\microsoft.extensions.configuration.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.1\\microsoft.extensions.configuration.fileextensions.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.1\\microsoft.extensions.configuration.json.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.1\\microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.1\\microsoft.extensions.fileproviders.physical.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.1\\microsoft.extensions.filesystemglobbing.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\system.text.json\\4.7.0\\system.text.json.4.7.0.nupkg.sha512",
+    "C:\\Users\\kkamka\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

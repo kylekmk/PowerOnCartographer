@@ -1,0 +1,35 @@
+BATCH FILE LOGIC
+
+// Batch File Identifier (Job File)
+public Regex batch_file_name_regex = new Regex(@"BATCHFILENAME\s+=\s+""([^""]+)");
+
+public List<string> all_file_names = new List<string>(File.ReadLines(@"C:\UFCU\PowerOnCartographer\PowerOnCartographer\Assets\PowerOnFileMasterList.txt"));
+
+
+/* FIND BATCH FILES used in Init()
+
+
+                string file_content = File.ReadAllText(RepGenBucketPath + "\\" + file_name);
+                Match batch_file_name_match = batch_file_name_regex.Match(file_content);
+
+                if (batch_file_name_match.Success && batch_file_name_match.Groups.Count > 1)
+                {
+                    PowerOnFile pof = Crawl(file_name);
+                    if (pof != null)
+                    {
+                        PowerOnFile jobfile = new PowerOnFile()
+                        {
+                            name = batch_file_name_match.Groups[1].Value,
+                            Includes = new List<PowerOnFile>(),
+                            Subroutines = new List<PowerOnFile>(),
+                            children = new List<PowerOnFile>(),
+                            Depth = 0,
+                            IsJobFile = true
+                        };
+                        pof.parentName = jobfile.name;
+                        jobfile.children.Add(pof);
+                        RootFiles.Add(jobfile);
+                    }
+
+                }
+*/

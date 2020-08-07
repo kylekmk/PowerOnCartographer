@@ -1,0 +1,12 @@
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\appsettings.json
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\PowerOnCartographer.deps.json
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\PowerOnCartographer.runtimeconfig.json
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\PowerOnCartographer.runtimeconfig.dev.json
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\PowerOnCartographer.dll
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\bin\Release\netcoreapp2.1\PowerOnCartographer.pdb
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.csprojAssemblyReference.cache
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.csproj.CoreCompileInputs.cache
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.AssemblyInfoInputs.cache
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.AssemblyInfo.cs
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.dll
+C:\UFCU\PowerOnCartographer\PowerOnCartographer\obj\Release\netcoreapp2.1\PowerOnCartographer.pdb

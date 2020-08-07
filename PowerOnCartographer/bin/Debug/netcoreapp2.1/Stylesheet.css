@@ -1,0 +1,304 @@
+.node {
+    cursor: pointer;
+}
+
+    .node circle {
+        fill: #fff;
+        stroke: #174992;
+        stroke-width: 3px;
+    }
+
+    .node subrot {
+        fill: #fff;
+        stroke: #174992;
+        stroke-width: 3px;
+    }
+
+    .node text {
+        transition: font .25s;
+        font: 10px sans-serif;
+    }
+
+        .node text:hover {
+            font: 15px sans-serif;
+        }
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+
+.tree {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.dropdown {
+    margin: 4px 2px;
+    padding: 15px 32px;
+    width: 500px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-right: 1px solid #bbb;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+    .dropdown:focus {
+        outline: none;
+    }
+
+    .dropdown:hover {
+        background-color: #222
+    }
+
+    .dropdown::-ms-expand {
+        display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+    }
+
+    .dropdown ::webkit-scrollbar {
+    }
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    .dropdown {
+        background: none\9;
+        padding: 5px\9;
+    }
+}
+
+/* width height*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.barbtn {
+    margin: 4px 2px;
+    padding: 15px 32px;
+    width: 250px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-right: 1px solid #bbb;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+    .barbtn:focus {
+        outline: none;
+    }
+
+    .barbtn:hover {
+        background-color: #222
+    }
+
+.search {
+    margin: 4px 2px 0px 10px;
+    padding: 15px 32px;
+    width: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+}
+
+    .search:focus {
+        outline: none;
+        border-bottom: 3px solid white;
+        width: 500px;
+    }
+
+input:not([value=""]):not(:focus):valid {
+    width: 500px;
+}
+
+.openbtn {
+    margin: 15px 2px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 25px;
+    transition: color .25s ease-in-out;
+}
+
+    .openbtn:focus {
+        outline: none;
+    }
+
+    .openbtn:hover {
+        background-color: #222
+    }
+
+.backbtn {
+    position: fixed;
+    display: none;
+    top: 75px;
+    left: 10px;
+    border: none;
+    background-color: transparent;
+    color: #ccc;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+}
+
+    .backbtn:focus {
+        outline: none;
+    }
+
+    .backbtn:hover {
+        color: #777
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    height: 0;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow: hidden;
+    transition: 0.3s;
+    padding-top: 0;
+}
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+        .sidebar a {
+            font-size: 18px;
+        }
+}
+
+.popup {
+    padding-top: 25px;
+    height: 300px;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: -500px;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+a::selection {
+    color: white;
+    background: #ffb7b7;
+}
+
+a::-moz-selection {
+    color: white;
+    background: #ffb7b7;
+}
+
+.popup h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 0px;
+
+}
+
+    .popup a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .popup a:hover {
+            color: #f1f1f1;
+        }
+
+    .popup .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .arrow{
+        position: fixed;
+        left: 0;
+        bottom: 100px;
+        cursor: pointer;
+    }

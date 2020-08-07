@@ -1,0 +1,173 @@
+﻿
+[TellerTran]
+Specfile=PLACEHOLDER~=====FSR/MSR=====
+Specfile=MAPP~Member Services
+Specfile=CUST~Sales Tracking
+Specfile=NEW.CARDFM~New Debit Card FM
+Specfile=CARDFM~Debit Card FM
+Specfile=CARDFM~Card FM
+Specfile=CC.CARDFM~Credit Card FM
+Specfile=CUTEK.FEE.MANAGER~Fee Refund
+Specfile=WRG.VIEWMEMBER.LAUNCH~Member Screens 3.1
+Specfile=UD.SAFEDEPOSITBOX.STATUS~SDB Availability List
+Specfile=SDB.MENU~SDB Menu
+Specfile=MB.SDB.TELLER~SDB Rental
+Specfile=STARTER.CHECKS.WYCOM.528~Starter Checks
+Specfile=STEP.UP.CERT.RATE~StepUp Rate Adjustment
+Specfile=SHR.INCENTIVE.FMP.528~Mbr Incentive Payment
+Specfile=UD.DBO~Debit Originations
+Specfile=CLEAR.WARNING.528~Remove Warning Code for CardKeeper
+Specfile=RD.CHEXSYSTEMS.WEB~View Historical Chex Reports
+
+Specfile=PLACEHOLDER~====FORMS====
+Specfile=STOPPAY.HTML~Stop Payment
+Specfile=FRAUDDISPUTE.528~Fraudulent Transaction Form
+Specfile=FORM.DEPOSITHOLD.NOTICE~Exception Deposit Hold Notice
+
+Specfile=PLACEHOLDER~====TELLER====
+Specfile=CC.PMT.HISTORY~CC Pmt History
+Specfile=SHARE.COMMENT.528~Misc. Business Items
+Specfile=SCAN.COUPON.528~Loan Coupon Scanner
+Specfile=UD.FRGN.CARD.CASH.ADVANCE.TRANS~Foreign Card Cash Advance
+
+Specfile=PLACEHOLDER~=====LENDING=====
+Specfile=UD.SKIPAPAYMENT~Skip A Payment Request
+Specfile=LOANTRANSFER.528~Loan Transfer
+Specfile=CHARGEOFF.FM~Charge off Share/Loan
+Specfile=UD.LOANPAYOFF~Loan Payoff
+Specfile=PDF.LOAN.PAYOFF.LETTER83~Loan Payoff Letter
+Specfile=MORTGAGE.LOAN.FUNDING.528~Mortgage Loan Fees
+Specfile=PDF.SUBSEQUENT.ACT.1118~Subsequent Action
+Specfile=DUEDATE.ADJ~DUEDATE.ADJ
+Specfile=UD.LOAN.MODIFICATION~Loan Modification Agreement
+Specfile=UD.LOAN.MOD.RATE~Loan Rate Reduction
+Specfile=UD.CONSUMERRELEASEOFLIEN~Release of Lien
+Specfile=UD.AUTOXFER~Automatic Payment Transfer
+
+Specfile=PLACEHOLDER~=====ACCT INFO=====
+Specfile=UD.WIN.SHARELOANLIST~Account Profile
+Specfile=UD.IMAGING~Imaging
+Specfile=SHAREHOLDS~Share Holds  
+Specfile=RD.TAX.INFO.WIN~Tax Information
+Specfile=MICR.DISPLAY~MICR Information
+Specfile=RD.CHECK.DIGIT~Check Digit Calculation
+Specfile=RD.VOD~Verification of Deposit
+Specfile=ADD.REMOVE.HOLDBASE.528~Perm Funds Availability
+Specfile=UD.TRAN.ACT~Business Analysis
+Specfile=PDF.DIRECT.DEPOSIT.LETTER82~Direct Deposit Letter
+Specfile=PDF.ACCT.STATUS.LETTER84~Account Standing Letter
+Specfile=UD.CANW.CLEANUP~Finish Account Number Change
+Specfile=TEK.APPS.01.SEARCHTRX~Search Transaction
+Specfile=UD.COLLECTFEES~Collect Fees Owed
+
+Specfile=PLACEHOLDER~=====ATM=====
+Specfile=UD.ATM.DISPUTE.TRANSACTION~ATM Dispute Transaction
+
+Specfile=PLACEHOLDER~=====USER INFO=====
+Specfile=RD.WHO~Who
+
+Specfile=PLACEHOLDER~=====LEGAL=====
+Specfile=UD.LEGALFORMS~Legal Forms 
+
+
+[AccountManager]
+Specfile=PLACEHOLDER~=====FSR/MSR=====
+Specfile=MAPP~Member Services
+Specfile=CUST~Sales Tracking
+Specfile=CARDFM~Card FM
+Specfile=CARDFM~Debit Card FM
+Specfile=CC.CARDFM~Credit Card FM
+Specfile=CUTEK.FEE.MANAGER~Fee Refund
+Specfile=WRG.VIEWMEMBER.LAUNCH~Member Screens 3.1
+Specfile=UD.SAFEDEPOSITBOX.STATUS~SDB Availability List
+Specfile=SDB.MENU~SDB Menu
+Specfile=MB.SDB.TELLER~SDB Rental
+Specfile=STARTER.CHECKS.WYCOM.528~Starter Checks
+Specfile=STEP.UP.CERT.RATE~StepUp Rate Adjustment
+Specfile=SHR.INCENTIVE.FMP.528~Mbr Incentive Payment
+Specfile=UD.DBO~Debit Originations
+Specfile=CLEAR.WARNING.528~Remove Warning Code for CardKeeper
+Specfile=RD.CHEXSYSTEMS.WEB~View Historical Chex Reports
+
+Specfile=PLACEHOLDER~====FORMS====
+Specfile=STOPPAY.HTML~Stop Payment
+Specfile=FRAUDDISPUTE.528~Fraudulent Transaction Form
+Specfile=FORM.DEPOSITHOLD.NOTICE~Exception Deposit Hold Notice
+
+Specfile=PLACEHOLDER~====TELLER====
+Specfile=CC.PMT.HISTORY~CC Pmt History
+Specfile=SHARE.COMMENT.528~Misc. Business Items
+Specfile=SCAN.COUPON.528~Loan Coupon Scanner
+Specfile=UD.FRGN.CARD.CASH.ADVANCE.TRANS~Foreign Card Cash Advance
+
+Specfile=PLACEHOLDER~=====LENDING=====
+Specfile=UD.SKIPAPAYMENT~Skip A Payment Request
+Specfile=LOANTRANSFER.528~Loan Transfer
+Specfile=CHARGEOFF.FM~Charge off Share/Loan
+Specfile=UD.LOANPAYOFF~Loan Payoff
+Specfile=PDF.LOAN.PAYOFF.LETTER83~Loan Payoff Letter
+Specfile=MORTGAGE.LOAN.FUNDING.528~Mortgage Loan Fees
+Specfile=PDF.SUBSEQUENT.ACT.1118~Subsequent Action
+Specfile=DUEDATE.ADJ~DUEDATE.ADJ
+Specfile=UD.LOAN.MODIFICATION~Loan Modification Agreement
+Specfile=UD.LOAN.MOD.RATE~Loan Rate Reduction
+Specfile=UD.CONSUMERRELEASEOFLIEN~Release of Lien
+Specfile=UD.AUTOXFER~Automatic Payment Transfer
+
+Specfile=PLACEHOLDER~=====ACCT INFO=====
+Specfile=UD.WIN.SHARELOANLIST~Account Profile
+Specfile=UD.IMAGING~Imaging
+Specfile=SHAREHOLDS~Share Holds
+Specfile=RD.TAX.INFO.WIN~Tax Information
+Specfile=MICR.DISPLAY~MICR Information
+Specfile=RD.CHECK.DIGIT~Check Digit Calculation
+Specfile=RD.VOD~Verification of Deposit
+Specfile=ADD.REMOVE.HOLDBASE.528~Perm Funds Availability
+Specfile=UD.TRAN.ACT~Business Analysis
+Specfile=PDF.DIRECT.DEPOSIT.LETTER82~Direct Deposit Letter
+Specfile=PDF.ACCT.STATUS.LETTER84~Account Standing Letter
+Specfile=UD.CANW.CLEANUP~Finish Account Number Change
+Specfile=TEK.APPS.01.SEARCHTRX~Search Transaction
+Specfile=UD.COLLECTFEES~Collect Fees Owed
+
+Specfile=PLACEHOLDER~=====ATM=====
+Specfile=UD.ATM.DISPUTE.TRANSACTION~ATM Dispute Transaction
+
+Specfile=PLACEHOLDER~=====USER INFO=====
+Specfile=RD.WHO~Who
+
+
+
+
+[AppProcessing]
+
+[APManager]
+
+[GLAccountManager]
+
+[InventoryManager]
+
+[Batch]
+Jobfile=ACH.ORIG.POST~DBO Post
+Jobfile=ACH.EDIT~ACH Edit
+Jobfile=ACH.POST~ACH Post
+Jobfile=ACH.MOVE~ACH Move
+Jobfile=ACH.REPOST~ACH Repost
+Jobfile=ACH.RETURN~ACH Return/Orig
+Jobfile=ACH.RETURN.3~ACH Return/Orig (3 day)
+Jobfile=DAILY.TRANSFER.JOB~Daily Transfer
+Jobfile=SHAREDRAFT.EDIT.JOB~Share Draft Edit Job
+Jobfile=SHAREDRAFT.POST~Share Draft Post
+Jobfile=SHAREDRAFT.MOVE~Share Draft Move
+Jobfile=SHAREDRAFT.REPOST~Share Draft Repost
+Jobfile=SHAREDRAFT.RETURN~Share Draft Return
+Jobfile=GOODNIGHT.DAILY~Goodnight Daily
+Jobfile=GOODNIGHT.MONTHLY~Goodnight Monthly
+Jobfile=GOODNIGHT.QRTLY~Goodnight Quarterly
+Jobfile=WIRES.POST.JOB~Wire Post Job
+Jobfile=WIRES.REPOST.JOB~Wire Repost Job
+Jobfile=WIRES.NOTICE~Wire Notices
+Jobfile=NCUA.SHARE.INSURANCE.RPT.V2~NCUA Share Insurance Report V2
+
+
+
