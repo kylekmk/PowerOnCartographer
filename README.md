@@ -8,6 +8,8 @@
 
 PowerOn Cartographer maps dependencies and dependents of specfiles within Episys using D3.js to show the tree. This makes it possible to see depth of calls made within specfiles and see what the source of problems may be.
 
+![alt text](https://github.com/kylekmk/PowerOnCartographer/blob/master/mapping.GIF?raw=true)
+
 ## Change View
 
 ----
